@@ -1,0 +1,71 @@
+*{margin: 0;padding: 0;}
+body{background: url(../imagens/fundo.png);}
+img{border: none;font: 14px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;}
+#conteudo{width: 1100px;height: auto;margin: 80px auto;}
+#inicio{height: 505px;margin: 50px 0 0 0;}
+#antes-sobre, #antes-portfolio{height: 14px;}
+#sobre, #portfolio{height: 500px;margin: 70px 0 0 0;}
+header{	width: 1100px;height: 100px;}
+.logotipo{float: left;width: 100px;height: 100px;}
+nav{float: right;width: 400px;height: 70px;}
+nav ul{list-style: none;margin: 38px 0 0 164px;}
+nav ul li{display: inline;margin: 0 10px 0 0;}
+nav ul li a{font: 15px Arial, Helvetica, sans-serif;color: #0099FF;text-decoration: none;text-shadow: 1px 1px 0px #FFFFFF;}
+nav ul li a:hover{color: #709500;}
+nav ul li .activo{color: #709500;}
+#apresentacao-fb-googleplus{clear: both;position: relative;top: 60px;width: 1200px;height: 200px;}
+#apresentacao{width: 850px;height: auto;float: left;}
+#fb-googleplus{float: right;position: fixed;left: 1290px;top: 245px;width: 52px;height: auto;}
+#fb{width: 52px;height: 62px;}
+#googleplus{margin: 5px 0 0 0;}
+#apresentacao h1{font: 54px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;padding: 6px 0 0 0;}
+.verde{color:#709500;}
+#habilidades-servicos{clear: both;margin: 50px 0 0 0;height: 120px;}
+#habilidades{float: left;width: 500px;height: auto;}
+#circulo-habilidades{width: 118px;height: 118px;background: url(../imagens/circulo-habilidades.png) no-repeat;float: left;}
+#circulo-servico{width: 118px;height: 118px;background: url(../imagens/circulo-servicos.png) no-repeat;float: left;}
+article{float: left;width: 350px;height: auto;margin: 20px 0 0 15px;}
+article h4{font: 15px Arial, Helvetica, sans-serif;color: #709500;text-shadow: 1px 1px 0px #FFFFFF;margin: 13px 0 0 0;}
+.azul{color: #0099FF;}
+#servicos{float: left;margin: 0 0 0 -5px;width: 600px;height: auto;}
+#imagem-informacao{height: 260px;clear: both;position: relative;top: 50px;left: 15px;}
+#imagem{width: 245px;height: 210px;margin: 5px 0 0 -10px;float: left;border: 1px solid #CCCCCC;-moz-border-radius: 11px;-webkit-border-radius: 11px;border-radius: 11px;behavior: url(border-radius.htc);background-color: #FFFFFF;}
+#me{background: url(../imagens/vanilson.png) no-repeat;width: 222px;height: 184px;margin: 13px 0 0 11px;}
+#informacao{float: left;width: 500px;height: 260px;margin: 3px 0 0 10px;}
+#informacao-sobre article, #objectivos article{width: 500px;height: 80px;margin: 18px 0 0 1px;}
+#objectivos{margin: -20px 0 0 0;}
+#informacao-sobre article h4, #objectivos article p{font: 15px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;margin: 15px 0 0 1px;	}
+#informacao-sobre{width: 500px;height: 130px;}
+#informacao-sobre article #sobre-texto{margin: -18px 0 4px 0;}
+#informacao-sobre article #sobre-texto p, #objectivos article #objectivos-texto p{font: 35px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;}
+#trabalhos{position: relative;top: 50px;left: 3px;height: 800px;clear: both;}
+#cfsd-info{height: 336px;}
+#imagem-cfsd{float: left;background: url(../imagens/trabalhos/cfsd.png) no-repeat;	width: 752px;height: 336px;}
+#imagem-webmestrado{float: left;background: url(../imagens/trabalhos/webmestrado.png) no-repeat;	width: 752px;height: 336px;}
+#imagem-imism{float: left;background: url(../imagens/trabalhos/imism.png) no-repeat;width: 752px;height: 336px;}
+#imagem-gc{float: left;background: url(../imagens/trabalhos/gestao_clinica.png) no-repeat;width: 752px;height: 336px;	}
+#imagem-convite-nr{float: left;background: url(../imagens/trabalhos/convite_nilsa_raimundo.png) no-repeat;	width: 752px;height: 336px;}
+.outros-projectos{margin: 50px 0 0 0;height: 336px;}
+.info-projectos{float: left;margin: 0 0 0 15px;width: 300px;height: auto;}
+.ferramentas, .url, .nota, .descricao{width: 300px;height: auto;margin: 8px 0 0 0;}
+.separador-horizontal{background: url(../imagens/separador-horizontal.png) repeat-x;height: 3px;margin: 8px 0 0 0;}
+.descricao p, .ferramentas h4, .url p, .nota p, .tipo-servico{font: 15px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;}
+.url p a{font: 15px Arial, Helvetica, sans-serif;text-decoration: none;text-shadow: 1px 1px 0px #FFFFFF;color: #8CBB00;}
+#antes-contacto{clear: both;position: relative;top: 50px;}
+#contacto{clear: both;margin: 120px 0 0 0;	height: auto;}
+#limpar{clear: both;position: relative;top: 100px;height: 5px;}
+#formulario-outros{height: 395px;position: relative;top: 50px;clear: both;left: 10px;}
+#formulario{width: 510px;height: 400px;float: left;}
+#formulario div label{font: 15px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;width:1px;height:auto;float:left;color:#0099FF;margin: 19px 0 0 0;display: block;}
+#formulario div #nome, #formulario div #email, #formulario div #assunto{margin: 0 0 0 95px;width: 391px;border: 1px solid #999999;height: 36px;padding:10px 10px 10px 10px;font: 15px Arial, Helvetica, sans-serif;color: #999999;-moz-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;behavior: url(border-radius.htc);}
+#formulario div #mensagem{margin: 0 0 0 95px;max-width:391px;min-width:391px;max-height:121px;min-height:121px;padding:10px 10px 10px 10px;font: 15px Arial, Helvetica, sans-serif;color: #999999;border: 1px solid #999999;-moz-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;behavior: url(border-radius.htc);}
+#formemail, #formassunto, #formmensagem{margin: 10px 0 0 0;}
+#formbotao{float: right;margin: 10px 2px 0 0;}
+#formbotao #btnenviar{width: 124px;height: 36px;background-color: #0099FF;border: none;font: 15px Arial, Helvetica, sans-serif;color: #FFFFFF;-moz-border-radius: 8px;-webkit-border-radius: 8px;border-radius: 8px;behavior: url(border-radius.htc);}
+#outros{float: left;margin: 0 0 0 30px;}
+#outros-texto{font: 20px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;}
+#youtube, #googleplussocial{margin: 0 0 0 5px;}
+#facebook-google, #telefone-email{margin: 10px 0 0 0;}
+#telefone-email p{font: 15px Arial, Helvetica, sans-serif;color: #0099FF;	text-shadow: 1px 1px 0px #FFFFFF;}
+#separador-horizontal-rodape{clear: both;background: url(../imagens/separador-horizontal.png) repeat-x;margin: 100px 0 0 0;height: 3px;}
+footer h4{font: 15px Arial, Helvetica, sans-serif;color: #0099FF;text-shadow: 1px 1px 0px #FFFFFF;margin: 10px 0 0 0;}
